@@ -1,0 +1,344 @@
+body {
+    background-image: url(https://i.imgur.com/mQNNfHF.png); 
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+#container {
+    background-image: url(https://i.imgur.com/ZpAnzp8.png);
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;        
+}
+#header {
+    background-image: url(https://i.imgur.com/ZpAnzp8.png);;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#profilkep {
+    width: 300px;
+    margin-left: 160px;
+    margin-top: 20px;
+    
+}
+
+#auto1 {
+    width: 790px;
+    margin-top: 10px;
+    
+}
+
+#auto2 {
+    width: 790px;
+    margin-top: 5px;
+    
+}
+
+#auto3 {
+    width: 790px;
+    margin-top: 5px;
+    
+}
+
+#portre1 {
+    width: 790px;
+    margin-top: 5px;
+    
+}
+
+#logo1 {
+    width: 790px;
+    margin-top: 5px;
+    
+}
+
+#alak1 {
+    width: 790px;
+    margin-top: 5px;
+    
+}
+
+#logo2 {
+    width: 790px;
+    margin-top: 5px;    
+    
+}
+
+#content {
+    padding: 10px;
+    color: white;
+}
+
+#nav {
+    width: 180px; 
+    float: left;
+}
+
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#nav .selected {
+    font-weight: bold;
+    text-underline-position: below;
+    text-decoration-line: underline; 
+     
+    
+}
+
+#main {
+    width: 600px;
+    float: right;    
+}
+
+#main2 {
+    width: 790px;
+    float: left;
+}
+
+#main3 {
+    width: 790px;
+    float: left;
+}
+
+#main4 {
+    width: 790px;
+    float: left;
+}
+
+#main5 {
+    width: 790px;
+    float: left;
+}
+
+#main6 {
+    width: 790px;
+    float: left;
+}
+
+#main7 {
+    width: 790px;
+    float: left;
+    margin-top: 10px;
+}
+
+#main8 {
+    width: 790px;
+    float: left;
+}
+
+#main9 {
+    width: 790px;
+    float: left;
+}
+
+#main10 {
+    width: 790px;
+    float: left;
+}
+
+#footer {
+    clear: both;
+}
+
+#footer {
+    clear: both;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: right;
+}
+
+#menü1, #menü2, #menü3, #menü4, #menü5, #menü6, #menü7, #menü8 {
+    padding: 10px;
+    
+}
+
+
+
+#bemutatkozas-header {
+    color: white;
+    background-color: black;
+    margin-left: 40px;
+    width: 570px;
+}
+
+#bemutatkozas-szoveg {
+    margin-left: 40px;
+}
+
+#vegzettseg-header {
+    color: white;
+    background-color: black;
+    
+}
+
+#kepesseg-header {
+    color: white;
+    background-color: black;
+}
+
+#erdeklodes-header {
+    color: white;
+    background-color: black;
+}
+
+#hobbi-header {
+    color: white;
+    background-color: black;
+}
+
+#munka-header {
+    color: white;
+    background-color: black;
+}
+
+#szakmot-header {
+    color: white;
+    background-color: black;
+}
+
+#celok-header {
+    color: white;
+    background-color: black;
+}
+
+#terulet-header {
+    color: white;
+    background-color: black;
+}
+
+#elerhetoseg-header {
+    color: white;
+    background-color: black;
+}
+
+#menu {
+    color: white;
+    background-color: black;
+}
+
+.container{
+    text-align: center;
+    margin-top: 10px;
+  }
+.btn{
+    border: 1px solid black;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 30px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    
+  }
+
+
+.btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: black;
+    z-index: -1;
+    transition: 0.8s;
+  }
+.btn1::before{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+  }
+
+
+.btn1::before{
+    height: 180%;
+  }
+
+.btn1:hover::before{
+    height: 0%;
+  }
+
+button {
+    position: absolute;    
+    transform: translate(0, 0);
+  }
+
+button {
+      background: none;
+      color: #ccc;
+      width: 240px;
+      height: 80px;
+      border: 1px solid #338033;
+      font-size: 18px;
+      border-radius: 4px;
+      transition: 0.6s;
+      overflow: hidden;      
+  }
+
+button:focus {
+      outline: none;
+  }
+
+button:before {
+      content: '';
+      display: block;
+      position: absolute;
+      background: black;
+      width: 60px;
+      height: 100%;
+      left: 0;
+      top: 0;
+      opacity: 0.5s;
+      filter: blur(30px);
+      transform: translateX(-130 px) skewX(-15deg);
+  }
+
+
+button:after{
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255,255,255,.2);
+    width: 30px;
+    height: 100%;
+    left: 30px;
+    top: 0;
+    opacity: 0;
+    filter: blur(30px);
+    transform: translateX(-100px) scaleX(-15deg);
+}
+
+:hover:before {
+   transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+
+:hover:after {
+   transform: translateX(300px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s;
+}
